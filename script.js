@@ -91,17 +91,17 @@ function getUserData(gitUrl) {
     }, 2000); // display for 2 seconds
 }
 
-// function getUserData(gitUrl) {
-//   fetch(gitUrl)
-//     .then((response) => response.json())
-//     .then((data) => {
-//       console.log(data);
-//       updateProfile(data);
-//     })
-//     .catch((error) => {
-//       throw error;
-//     });
-// }
+function getUserData(gitUrl) {
+  fetch(gitUrl)
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+      updateProfile(data);
+    })
+    .catch((error) => {
+      throw error;
+    });
+}
 
 
 //RENDER
