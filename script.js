@@ -24,7 +24,7 @@ const page = get("page");
 const twitter = get("twitter");
 const company = get("company");
 let darkMode = false;
-const token = 'YOUR API KEY';
+const token = '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';
 
 // Event Listeners
 btnsubmit.addEventListener("click", function () {
@@ -200,7 +200,7 @@ function init() {
   }
 
 //IF YOU WANT TO SET A DEFAULT PROFILE TO THE HOME PAGE
-  getUserData(url + "");
+  getUserData(url + "amantoor17");
 }
 
 init();
